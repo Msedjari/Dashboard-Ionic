@@ -1,0 +1,25 @@
+{
+  "title": "Tasa de Conversión en Tiempo Real",
+  "subtitle": "Actualizado cada 5 segundos",
+  "initial_data": {
+    "labels": ["00:00", "00:05", "00:10", "00:15", "00:20", "00:25", "00:30"],
+    "datasets": [
+      {
+        "label": "Tasa de Conversión (%)",
+        "data": [3.2, 3.5, 3.8, 3.3, 3.6, 3.9, 4.1],
+        "borderColor": "#3B82F6",
+        "backgroundColor": "rgba(59, 130, 246, 0.1)",
+        "fill": true,
+        "tension": 0.4
+      }
+    ]
+  },
+  "options": {
+    "max_points": 20,
+    "refresh_rate": 5000,
+    "simulation": {
+      "min": 2.8,
+      "max": 4.5
+    }
+  }
+} 

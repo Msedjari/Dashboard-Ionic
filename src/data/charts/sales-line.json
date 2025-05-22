@@ -1,0 +1,18 @@
+{
+  "title": "Ventas Mensuales",
+  "subtitle": "Últimos 12 meses",
+  "data": {
+    "categories": ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"],
+    "series": [
+      {
+        "name": "Ventas",
+        "data": [30500, 40000, 35000, 50000, 49000, 60000, 70000, 91000, 85000, 105000, 115000, 120000]
+      },
+      {
+        "name": "Objetivo",
+        "data": [40000, 40000, 45000, 50000, 55000, 60000, 70000, 80000, 90000, 100000, 110000, 120000]
+      }
+    ]
+  },
+  "colors": ["#4154f1", "#8fa6fc"]
+} 

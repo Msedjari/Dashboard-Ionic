@@ -1,0 +1,14 @@
+{
+  "title": "Tiempo de Respuesta por Endpoint",
+  "subtitle": "En milisegundos",
+  "data": {
+    "categories": ["/api/users", "/api/auth", "/api/news", "/api/matches", "/api/trophies", "/api/favorites"],
+    "series": [
+      {
+        "name": "Tiempo de Respuesta",
+        "data": [120, 85, 210, 160, 95, 310]
+      }
+    ]
+  },
+  "colors": ["#FF6B6B"]
+} 

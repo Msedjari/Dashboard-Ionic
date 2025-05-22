@@ -1,0 +1,18 @@
+{
+  "title": "Crecimiento de Usuarios",
+  "subtitle": "Últimos 12 meses",
+  "data": {
+    "categories": ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Ago", "Sep", "Oct", "Nov", "Dic"],
+    "series": [
+      {
+        "name": "Nuevos Usuarios",
+        "data": [120, 140, 150, 210, 250, 320, 380, 420, 450, 510, 550, 580]
+      },
+      {
+        "name": "Usuarios Recurrentes",
+        "data": [80, 105, 140, 160, 190, 220, 260, 290, 320, 360, 390, 420]
+      }
+    ]
+  },
+  "colors": ["#F87171", "#FBBF24"]
+} 

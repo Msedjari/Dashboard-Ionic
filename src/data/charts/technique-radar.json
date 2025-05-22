@@ -1,0 +1,18 @@
+{
+  "title": "Rendimiento del Sistema",
+  "subtitle": "Puntuación de 0 a 100",
+  "data": {
+    "categories": ["Velocidad", "Escalabilidad", "Seguridad", "Eficiencia", "Mantenibilidad", "Fiabilidad", "Compatibilidad"],
+    "series": [
+      {
+        "name": "Actual",
+        "data": [85, 70, 90, 80, 75, 88, 82]
+      },
+      {
+        "name": "Objetivo",
+        "data": [90, 85, 95, 85, 85, 92, 88]
+      }
+    ]
+  },
+  "colors": ["#4D7EFF", "#FF4D4D"]
+} 

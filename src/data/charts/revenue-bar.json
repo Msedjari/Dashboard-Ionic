@@ -1,0 +1,18 @@
+{
+  "title": "Ingresos por Trimestre",
+  "subtitle": "Comparación anual",
+  "data": {
+    "categories": ["Q1", "Q2", "Q3", "Q4"],
+    "series": [
+      {
+        "name": "Este Año",
+        "data": [125000, 169000, 205000, 231000]
+      },
+      {
+        "name": "Año Anterior",
+        "data": [95000, 125000, 150000, 180000]
+      }
+    ]
+  },
+  "colors": ["#36D399", "#83E7B6"]
+} 

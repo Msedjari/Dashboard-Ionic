@@ -1,0 +1,12 @@
+{
+  "title": "Distribución de Recursos",
+  "subtitle": "Porcentaje de CPU por proceso",
+  "data": [
+    { "label": "Servidor Web", "value": 35 },
+    { "label": "Base de Datos", "value": 25 },
+    { "label": "Caché", "value": 15 },
+    { "label": "APIs", "value": 18 },
+    { "label": "Analíticas", "value": 7 }
+  ],
+  "colors": ["#3B82F6", "#10B981", "#F59E0B", "#EF4444", "#8B5CF6"]
+} 

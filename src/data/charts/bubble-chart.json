@@ -1,0 +1,33 @@
+{
+  "title": "Peticiones por Sección",
+  "subtitle": "Tamaño = Tiempo de carga (ms)",
+  "data": {
+    "series": [
+      {
+        "name": "Inicio",
+        "data": [
+          { "x": 25, "y": 32, "z": 120 },
+          { "x": 40, "y": 14, "z": 110 },
+          { "x": 35, "y": 25, "z": 150 }
+        ]
+      },
+      {
+        "name": "Tienda",
+        "data": [
+          { "x": 60, "y": 45, "z": 260 },
+          { "x": 70, "y": 35, "z": 320 },
+          { "x": 80, "y": 50, "z": 350 }
+        ]
+      },
+      {
+        "name": "Blog",
+        "data": [
+          { "x": 15, "y": 18, "z": 190 },
+          { "x": 20, "y": 25, "z": 210 },
+          { "x": 30, "y": 30, "z": 240 }
+        ]
+      }
+    ]
+  },
+  "colors": ["#4CAF50", "#FF6B6B", "#4D7EFF"]
+} 

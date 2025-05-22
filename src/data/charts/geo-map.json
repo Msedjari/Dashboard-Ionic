@@ -1,0 +1,24 @@
+{
+  "title": "Distribución Geográfica",
+  "subtitle": "Usuarios por país",
+  "data": [
+    { "name": "España", "value": 5490 },
+    { "name": "México", "value": 2100 },
+    { "name": "Colombia", "value": 1850 },
+    { "name": "Argentina", "value": 1540 },
+    { "name": "Chile", "value": 1280 },
+    { "name": "Perú", "value": 1150 },
+    { "name": "Estados Unidos", "value": 980 },
+    { "name": "Brasil", "value": 840 },
+    { "name": "Francia", "value": 620 },
+    { "name": "Italia", "value": 480 }
+  ],
+  "visualMap": {
+    "min": 0,
+    "max": 6000,
+    "text": ["Alto", "Bajo"],
+    "inRange": {
+      "color": ["#D6E3F8", "#2563EB"]
+    }
+  }
+} 
