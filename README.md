@@ -23,9 +23,18 @@ Dashboard interactivo que visualiza métricas y estadísticas del fútbol, combi
 
 - **Frontend**:
   - Vue.js 3
-  - Ionic Framework
-  - ECharts para visualizaciones
+  - Ionic Framework 8
   - TypeScript
+  - Vite como bundler
+  - Múltiples librerías de gráficos:
+    - Chart.js
+    - ECharts
+    - ApexCharts
+
+- **Testing**:
+  - Cypress para pruebas E2E
+  - Vitest para pruebas unitarias
+  - Vue Test Utils
 
 - **Estilos**:
   - CSS3 con variables personalizadas
@@ -36,21 +45,13 @@ Dashboard interactivo que visualiza métricas y estadísticas del fútbol, combi
 
 ```
 src/
-├── components/
-│   └── charts/
-│       ├── BoxPlotChart.vue
-│       ├── BubbleChart.vue
-│       ├── GeoMapChart.vue
-│       ├── HorizontalBarChart.vue
-│       ├── LiveConversionChart.vue
-│       ├── PolarAreaChart.vue
-│       ├── RevenueBarChart.vue
-│       ├── SalesLineChart.vue
-│       ├── TechniqueRadarChart.vue
-│       └── UserGrowthAreaChart.vue
-├── views/
-│   └── KPIs.vue
-└── App.vue
+├── components/     # Componentes reutilizables
+├── data/          # Datos y configuraciones
+├── views/         # Vistas principales
+├── router/        # Configuración de rutas
+├── theme/         # Estilos y temas
+├── main.ts        # Punto de entrada
+└── App.vue        # Componente raíz
 ```
 
 ## 🎨 Diseño
@@ -84,7 +85,16 @@ npm install
 
 3. Iniciar el servidor de desarrollo:
 ```bash
-npm run dev
+ionic serve
+```
+
+4. Ejecutar pruebas:
+```bash
+# Pruebas unitarias
+npm run test:unit
+
+# Pruebas E2E
+npm run test:e2e
 ```
 
 ## 📈 Rendimiento
@@ -97,11 +107,17 @@ El dashboard está optimizado para:
 
 ## 🔧 Configuración
 
-El proyecto utiliza variables CSS personalizadas para:
-- Colores del tema
-- Espaciado
-- Tipografía
-- Breakpoints responsivos
+El proyecto utiliza:
+- TypeScript para tipado estático
+- ESLint para linting
+- Capacitor para funcionalidades nativas
+- Vite para desarrollo y build
+
+## 📝 Scripts Disponibles
+
+- `npm run dev`: Inicia el servidor de desarrollo
+- `npm run build`: Construye la aplicación para producción
+- `npm run preview`: Previsualiza la build de producción
 
 
 Desarrollado con ❤️ por Mouad Sedjari 
