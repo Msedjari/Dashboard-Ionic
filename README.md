@@ -75,7 +75,7 @@ El dashboard está diseñado con un enfoque en la usabilidad y la experiencia de
 
 1. Clonar el repositorio:
 ```bash
-git clone [url-del-repositorio]
+git clone https://github.com/Msedjari/Dashboard-Ionic
 ```
 
 2. Instalar dependencias:
@@ -86,15 +86,6 @@ npm install
 3. Iniciar el servidor de desarrollo:
 ```bash
 ionic serve
-```
-
-4. Ejecutar pruebas:
-```bash
-# Pruebas unitarias
-npm run test:unit
-
-# Pruebas E2E
-npm run test:e2e
 ```
 
 ## 📈 Rendimiento
